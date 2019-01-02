@@ -45,7 +45,7 @@ class NeuralNetwork{
             }
         }
     }
-    double[] look(double[] pInput){
+    double[] run(double[] pInput){
         for(int i = 0; i < input.length;i++){
             input[i].output = pInput[i];
         }
